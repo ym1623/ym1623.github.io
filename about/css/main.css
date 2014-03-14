@@ -434,6 +434,12 @@ table tr td:first-child{
 /*##################################################################*/
 /*响应式布局*/
 @media screen and (max-width: 480px) {
+	.container {
+		position: relative;
+		width: 100%;
+		height: 1000px;
+		margin: 0 auto;
+	}
 	.loading { /*加载*/
 	    font-size: 16px;
 	    height: 50px;
@@ -474,7 +480,7 @@ table tr td:first-child{
 	bottom: 50px;
 	width: 50px;
 	height: 50px;
-	background: url(../images/topButton.png) no-repeat 0 0;
+	background: url(../img/topButton.png) no-repeat 0 0;
 	z-index: 999;
 	cursor: pointer;
 }
