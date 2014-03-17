@@ -132,11 +132,11 @@ $(function() {
         }
     });
     
-    $(".hello .nextBtn").click(function(event) {
-    	$("body, html").animate({scrollTop: "1000px"}, 1000, function() {
-    		$(".about").fadeIn(2000); // 显示关于模块
-    	});
-    });
+    // $(".hello .nextBtn").click(function(event) {
+    // 	$("body, html").animate({scrollTop: "1000px"}, 1000, function() {
+    // 		$(".about").fadeIn(2000); // 显示关于模块
+    // 	});
+    // });
     $(".about .nextBtn").click(function(event) {
     	$("body, html").animate({scrollTop: "1800px"}, 1000, function() {
     		$(".experience").fadeIn(2000); // 显示联系模块
