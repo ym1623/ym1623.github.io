@@ -41,7 +41,6 @@ function listenerScroll(){
 			"#home",
 			"#skill",
 			"#about",
-			"#works",
 			"#contact"
 		];
 		var py=window.pageYOffset;
@@ -65,8 +64,7 @@ function setCurrentNavItem(hash){
 			home: 1,
 			skill: 2,
 			about: 3,
-			works: 4,
-			contact: 5
+			contact: 4
 		}
 		var current=document.querySelector("nav a[href='"+hash+"']");
 		var list=document.querySelectorAll("nav a");
