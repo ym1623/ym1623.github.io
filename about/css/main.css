@@ -342,7 +342,7 @@ table tr td:first-child{
 	color: #EEE;
 }
 #about .rows{
-	height: 540px;
+	/*height: 540px;*/
 	overflow: hidden;
 }
 .rows h2,
