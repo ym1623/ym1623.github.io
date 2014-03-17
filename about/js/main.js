@@ -45,7 +45,7 @@ function listenerScroll(){
 			"#contact"
 		];
 		var py=window.pageYOffset;
-		var currentPageHash=hashList[Math.floor((py+200)/700)];
+		var currentPageHash=hashList[Math.floor((py+200)/1000)];
 		//console.log("current page:"+currentPageHash);
 		if(currentPageHash){ // 末尾页可能无法获取到 hash
 			setCurrentNavItem(currentPageHash);
